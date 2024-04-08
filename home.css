@@ -35,7 +35,7 @@
       position: relative;
       align-items: center;
       justify-content: center;
-      background-image: url("background.mp4");
+      background-image: url("images/antWorld.png");
     }
     .home-navbar-interactive {
       width: 100%;
