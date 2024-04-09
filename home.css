@@ -35,7 +35,7 @@
       position: relative;
       align-items: center;
       justify-content: center;
-      background-image: url("images/background.gif");
+      background-image: url("images/backgroundSmall.gif");
     }
     .home-navbar-interactive {
       width: 100%;
@@ -49,7 +49,7 @@
       justify-content: space-between;
     }
     .home-text {
-      font-family: 'Ojuju';
+      font-family: 'Lexend';
       left: 0px;
       right: 0px;
       margin: auto;
