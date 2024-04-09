@@ -49,7 +49,7 @@
       justify-content: space-between;
     }
     .home-text {
-      font-family: 'Lexend';
+      font-family: 'Ojuju';
       left: 0px;
       right: 0px;
       margin: auto;
@@ -58,7 +58,7 @@
       font-style: normal;
       text-align: center;
       font-weight: 700;
-      font-size: 10px;
+      font-size: 50px;
     }
     .home-desktop-menu {
       font-family: 'Lexend';
