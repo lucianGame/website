@@ -248,9 +248,19 @@
       text-align: center;
       font-weight: 200;
       color:rgb(0, 0, 0);
-
-    
     }
+
+.body-text2 {
+      font-family: 'Lexend';
+      width: 100%;
+      height: auto;
+      font-size: 13px;
+      font-style: normal;
+      text-align: left;
+      font-weight: 200;
+      color:rgb(0, 0, 0);
+    }
+
     .home-container4 {
       flex: 0 0 auto;
       width: 100%;
