@@ -242,9 +242,11 @@
       line-height: 2;
     }
 
-    .about-image {
+      .about-image {
+      margin-top: 200px;
         width: 400px;
         object-fit: cover;
+        border: solid #000000 2px;
       }
 
     .about-container {
