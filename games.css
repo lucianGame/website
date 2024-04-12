@@ -35,7 +35,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background-image: url("images/backgroundSmall.gif");
+    background-image: url("videos/noise.1.mov");
   }
   .home-navbar-interactive {
     width: 100%;
@@ -262,7 +262,7 @@
     
     main {
       display: flex;
-      width: 80%;
+      width: 90%;
       flex-direction: column; /* Arrange items vertically */
       height: 1024px; /* Example height */
       margin-left: 10%;
@@ -346,10 +346,10 @@
           justify-content: flex;
           margin-left: 20px;
           margin-top: 15px;
-      margin-bottom: 15px;
           margin-right: 40px;
           width: 480px;
           height: 300px;
+          margin-bottom: 15px;
           color: black;
           border: 2px solid #000000;
           }
