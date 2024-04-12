@@ -307,22 +307,11 @@
       align-items: center;
     }
 
-    .home-image {
-      width: 300px;
-      margin: 100px;
-    object-fit: cover;
-      
-    }
-    .home-image1 {
+   .home-image {
       width: 400px;
-      object-fit: cover;
-      margin-bottom: 120px;
-    }
-    .home-image2 {
-      width: 300px;
-      margin-bottom: 50px;
-      object-fit: cover;
-      margin-left: 100px;
+      margin-left: 50px;
+      margin-bottom: 100px;
+    object-fit: cover; 
     }
   
     @media(max-width: 767px) {
