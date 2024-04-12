@@ -262,6 +262,7 @@
     
     main {
       display: flex;
+      width: 80%;
       flex-direction: column; /* Arrange items vertically */
       height: 1024px; /* Example height */
       margin-left: 10%;
@@ -300,7 +301,8 @@
       display: flex;
       justify-content: flex;
       margin-left: 20px;
-      margin-top: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
       margin-right: 40px;
       width: 480px;
       height: 300px;
@@ -343,7 +345,8 @@
           display: flex;
           justify-content: flex;
           margin-left: 20px;
-          margin-top: 20px;
+          margin-top: 15px;
+      margin-bottom: 15px;
           margin-right: 40px;
           width: 480px;
           height: 300px;
