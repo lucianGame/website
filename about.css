@@ -36,7 +36,7 @@
       position: relative;
       align-items: center;
       justify-content: center;
-      background-image: url("videos/noise.1.mov");
+      background-image: url("images/backgroundSmall.gif");
     }
     .home-navbar-interactive {
       width: 100%;
