@@ -4,6 +4,13 @@
     src: url(fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf);
   }
 
+  @font-face {
+    font-family: megascope-variable;
+  font-style: normal;
+  font-variation-settings: "SCOP" 0, "wght" 700;
+  src: url(fonts/fonnts.com-Megascope_Variable_Regular.otf);
+  }
+
   *{
     padding: 0;
     margin: 0;
@@ -29,7 +36,7 @@
       position: relative;
       align-items: center;
       justify-content: center;
-      background-image: url("images/backgroundSmall.gif");
+      background-image: url("videos/noise.1.mov");
     }
     .home-navbar-interactive {
       width: 100%;
@@ -43,15 +50,18 @@
       justify-content: space-between;
     }
     .home-text {
-      font-family: 'Lexend';
+      font-family: megascope-variable;
       left: 0px;
       right: 0px;
       margin: auto;
+      margin-right: 20px;
       position: absolute;
       font-style: normal;
-      text-align: center;
-      font-weight: 700;
-      font-size: 50px;
+      font-weight: 500;
+      font-size: 60px;
+      text-align: right;
+      letter-spacing: 5px;
+      word-spacing: 10px;
     }
 
     .home-nav {
@@ -116,29 +126,33 @@
   #check {display: none;}
   
   .home-text {
-    font-family: 'Lexend';
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    margin-right: 20px;
-    position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: right;
+    font-family: megascope-variable;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+      margin-right: 20px;
+      position: absolute;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 60px;
+      text-align: right;
+      letter-spacing: 5px;
+      word-spacing: 10px;
   }
 
     .header-text {
-        font-family: 'Lexend';
-        width: 100%;
-        height: 50px;
-        font-size: 40px;
-        margin-bottom: 50px;
-        margin-top: 90px;
-        font-style: bold;
-        text-align: center;
-        font-weight: 600;
-        color:rgb(0, 0, 0);
+      font-family: megascope-variable;
+      width: 100%;
+      height: 50px;
+      font-size: 50px;
+      margin-bottom: 50px;
+      margin-top: 100px;
+      font-style: bold;
+      text-align: center;
+      font-weight: 400;
+      color:rgb(0, 0, 0);
+      letter-spacing: 5px;
+      word-spacing: 10px;
     
     }
 
@@ -163,6 +177,7 @@
         width: 400px;
         object-fit: cover;
         border: solid #000000 2px;
+        margin-bottom: 20px;
       }
 
     .about-container {
@@ -174,6 +189,17 @@
         align-items: center;
       }
 
+      .about-container2 {
+        width: 60%;
+        height: 400px;
+        margin-top: 100px;
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Arrange items vertically */
+      }
+
       @media (max-width: 610px){
 
         .home-text {
@@ -183,13 +209,13 @@
           font-size: 23px;
           width: 40px;
           padding: 20px;
-          margin-right: 80px;
+          margin-right: 50px;
           text-align: right;
         }
         .header-text {
           font-size: 30px;
           margin-bottom: 0px;
-          margin-top: 30px;
+          margin-top: 50px;
           font-weight: 400;
         }
 
@@ -248,4 +274,6 @@
   
       }
     
+
+
 
