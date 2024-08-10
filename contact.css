@@ -1,7 +1,15 @@
 
+ 
   @font-face {
     font-family: Lexend;
     src: url(fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: megascope-variable;
+  font-style: normal;
+  font-variation-settings: "SCOP" 0, "wght" 700;
+  src: url(fonts/fonnts.com-Megascope_Variable_Regular.otf);
   }
 
   *{
@@ -29,19 +37,21 @@
       position: relative;
       align-items: center;
       justify-content: center;
-      background-image: url("images/backgroundSmall.gif");
+      background-image: url("videos/noise.1.mov");
     }
     .home-text {
-      font-family: 'Lexend';
+      font-family: megascope-variable;
       left: 0px;
       right: 0px;
       margin: auto;
       margin-right: 20px;
       position: absolute;
       font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
+      font-weight: 500;
+      font-size: 60px;
       text-align: right;
+      letter-spacing: 5px;
+      word-spacing: 10px;
     }
 
     .home-text02 {
@@ -112,16 +122,19 @@
       justify-content: center;
     }
     .home-text13 {
-      font-family: 'Lexend';
+      font-family: megascope-variable;
       width: 100%;
       height: 50px;
-      font-size: 40px;
+      font-size: 50px;
       margin-bottom: 50px;
-      margin-top: 90px;
+      margin-top: 100px;
       font-style: bold;
       text-align: center;
-      font-weight: 600;
+      font-weight: 400;
       color:rgb(0, 0, 0);
+      letter-spacing: 5px;
+      word-spacing: 10px;
+    
     
     }
 
@@ -327,20 +340,20 @@
 
       .home-text {
         position: absolute;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 23px;
-        width: 40px;
-        padding: 20px;
-        margin-right: 80px;
-        text-align: right;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 23px;
+          width: 40px;
+          padding: 20px;
+          margin-right: 50px;
+          text-align: right;
       }
 
       .home-text13 {
         font-size: 30px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        font-weight: 400;
+          margin-bottom: 30px;
+          margin-top: 50px;
+          font-weight: 400;
       }
 
       .contact-container1 {
@@ -413,5 +426,8 @@
     #check:checked ~ .menu {left: 0;}
 
     }
+  
+
+
   
 
