@@ -31,7 +31,7 @@ src: url(fonts/fonnts.com-Megascope_Variable_Regular.otf);
     position: relative;
     align-items: center;
     justify-content: center;
-    background-image: url("videos/noise.1.mov");
+    background-image: url("images/backgroundSmall.gif");
   }
   .home-navbar-interactive {
     width: 100%;
