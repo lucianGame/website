@@ -205,8 +205,6 @@
         margin-bottom: 0px;
         margin-top: 70px;
         font-weight: 400;
-        margin-right: 200px;
-        margin-left: 200px;
       }
   
       .heading-text02 {
@@ -218,8 +216,7 @@
 
       .home-container2 {
         height: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
+        width: 70%;
       }
     
       .home-container3 {
